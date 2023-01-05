@@ -2,6 +2,7 @@
     margin: 0;
     padding: 00;
 }
+
 /* header section */
 .navbar{
     display: flex;
@@ -81,6 +82,8 @@ justify-content: center;
     margin: 0 auto;
     height: 595px;
     margin-top: 115px;
+    margin-bottom: 20px;
+
 }
 .what-i-do-tittle{
     font-size: 35px;
@@ -117,4 +120,54 @@ padding: 1px solid red;
 }
 .box-4 div h1{
     margin-bottom: 20px;
+}
+
+
+
+
+/* resume section */
+.right-container div{
+width: 511px;
+height: 175px;
+/* border-bottom: 1px solid red; */
+
+}
+.left-container div {
+   
+width: 511px;
+height: 175px;
+/* border-bottom: 1px solid red; */
+
+}
+.resume-section{
+    display: flex;
+    width: 1140px;
+    height: 991px;
+    background-color:#18181800;
+    /* border: 1px solid red; */
+   margin: 0 auto;
+   gap: 64px;
+}
+.summary-tittle{
+    text-align: center;
+    padding: 25px;
+}
+.border-bottom{
+border-bottom: 1px solid red;
+}
+span{
+   
+    color: #474747;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.h1-bootom-margin{
+    font-weight: 700;
+font-size: 30px;
+color: red;
+margin-bottom: 10px;
+}
+.h1-bootom-margin{
+    margin-right: 100px;
 }

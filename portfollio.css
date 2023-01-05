@@ -126,6 +126,9 @@ padding: 1px solid red;
 
 
 /* resume section */
+
+
+
 .right-container div{
 width: 511px;
 height: 175px;
@@ -142,11 +145,13 @@ height: 175px;
 .resume-section{
     display: flex;
     width: 1140px;
-    height: 991px;
+    height: 450px;
     background-color:#18181800;
     /* border: 1px solid red; */
-   margin: 0 auto;
+    margin: 0 auto;
+
    gap: 64px;
+
 }
 .summary-tittle{
     text-align: center;
@@ -170,4 +175,14 @@ margin-bottom: 10px;
 }
 .h1-bootom-margin{
     margin-right: 100px;
+}
+.button-download{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+   margin-bottom: 95px;
+}
+.button-download button{
+    padding: 10px;
+    background: #FD6E0A;
 }

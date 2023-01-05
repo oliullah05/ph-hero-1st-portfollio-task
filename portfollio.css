@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 00;
+}
+/* header section */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 50px 200px;
+}
+.navbar ul{
+    display: flex;
+    text-decoration: none;
+  padding-left: 25px;
+}
+.navbar ul li{
+    margin-right: 20px;
+        list-style: none;
+    }
+.r{
+    color: #FD6E0A;
+}
+.navbar h1{
+    color: Dark 01;
+}
+/* banner part */
+.banner{
+    margin: 0 200px;
+    display: flex;
+   align-items: center;
+}
+header{
+    display: flex;
+    background-color: #FFF8F3;
+    background-image: url("./header_bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+/* about me section */
